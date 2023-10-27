@@ -7,6 +7,18 @@
     <groupId>org.tools</groupId>
     <artifactId>TextHammer</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <properties>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
+    </properties>
+    <dependencies>
+    <dependency>
+        <groupId>org.example</groupId>
+        <artifactId>utils</artifactId>
+        <version>1.7</version>
+    </dependency>
+</dependencies>
 
 
 </project>
